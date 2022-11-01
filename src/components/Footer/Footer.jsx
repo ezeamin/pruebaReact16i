@@ -1,11 +1,10 @@
-// rfce
+// rafce -> flecha
+// rfce  -> tradicional
 
-import React from 'react'
+import React from 'react';
 
-function Footer() {
-  return (
-    <div>Footer</div>
-  )
-}
+const Footer = () => {
+  return <img src='/img/imagen.jpg' id='imagen' alt='Imagen de dinosaurios' />;
+};
 
-export default Footer
+export default Footer;
